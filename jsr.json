@@ -1,0 +1,15 @@
+{
+  "name": "@svector/orbit-cli",
+  "version": "1.0.3",
+  "license": "MIT",
+  "exports": {
+    ".": "./bin/cli-wrapper-jsr.js"
+  },
+  "publish": {
+    "include": [
+      "bin/cli-wrapper-jsr.js",
+      "CHANGELOG.md",
+      "README.md"
+    ]
+  }
+}
