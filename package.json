@@ -1,0 +1,25 @@
+{
+  "name": "orbit-cli",
+  "version": "1.0.0",
+  "description": "Orbit CLI (SVECTOR): A powerful terminal-based CLI for interacting with LLMs and AI agents, optimized for SVECTOR models.",
+  "bin": {
+    "orbit-cli": "bin/cli-wrapper.js"
+  },
+  "files": [
+    "dist/",
+    "bin/",
+    "CHANGELOG.md",
+    "README_PUBLISH.md"
+  ],
+  "scripts": {
+    "postinstall": "node ./bin/postinstall.js"
+  },
+  "keywords": ["orbit-cli","svector","cli"],
+  "author": "SVECTOR",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svector-corporation/orbit-cli.git"
+  },
+  "homepage": "https://github.com/svector-corporation/orbit-cli#readme",
+  "license": "MIT"
+}

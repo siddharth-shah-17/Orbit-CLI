@@ -1,0 +1,8 @@
+{
+  "$schema": "./orbit-cli-schema.json",
+  "lsp": {
+    "gopls": {
+      "command": "gopls"
+    }
+  }
+}
