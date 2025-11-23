@@ -1,15 +1,14 @@
 {
-  "name": "orbit-cli",
+  "name": "orbit-cli-svector",
   "version": "1.0.0",
-  "description": "Orbit CLI (SVECTOR): A powerful terminal-based CLI for interacting with LLMs and AI agents, optimized for SVECTOR models.",
+  "description": "Orbit CLI by SVECTOR is a powerful terminal-based AI assistant that helps with software development tasks.",
   "bin": {
     "orbit-cli": "bin/cli-wrapper.js"
   },
   "files": [
     "dist/",
     "bin/",
-    "CHANGELOG.md",
-    "README_PUBLISH.md"
+    "CHANGELOG.md"
   ],
   "scripts": {
     "postinstall": "node ./bin/postinstall.js"
